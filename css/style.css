@@ -1,0 +1,119 @@
+body {
+  background-color: #2f3962;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #CC6600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFCF00;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 90%;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+
+table td, table th {
+  border-top: 1px solid #dce0ee;
+  padding: 8px;
+}
+
+table th, table tfoot tr td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2f3962;
+  color: #FFF;
+}
+
+h1{
+  color: #2f3962;
+  font-size: 3em;
+}
+
+.flag {
+  font-family: initial !important;
+}
+
+.shelf {
+  background-color: #FFFFFF;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8px;
+  width:60%;
+}
+
+#signin {
+  padding: 20px;
+}
+
+.passport { /* 7x10 */
+  display: inline-block;
+  border: 0;
+  width: 210px;
+  height: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.button {
+  color: #FFFFFF;
+  background-color: #FFCC00;
+  display: inline-block;
+  padding: 6px 18px;
+  font-size: 18px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.button:hover {
+  color: #FFFFFF;
+  background-color: #FCBA00;
+}
+
+.footer {
+  color: #FFFFFF;
+  font-size: .5em;
+  text-align: center;
+}
+
+/*
+#signin {
+  visibility: hidden;
+}
+
+#analyze {
+  visibility: hidden;
+}
+*/
+
+/*
+#countryContainer {
+  visibility: hidden;
+}
+
+#stateContainer {
+  visibility: hidden;
+}
+
+#badgeContainer {
+  visibility: hidden;
+}
+*/

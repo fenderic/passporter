@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Passporter - Powered by Untappd</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div id="app" class="main">
+    <div class="shelf">
+      <div>
+        <h1>Passporter</h1>
+        <a href="https://www.untappd.com" target="_blank"><img src="images/pbu_40_yellow.png" /></a>
+      </div>
+
+      <img class="passport" src="images/passporter_booklet.svg" /></br>
+      <a class="button" id="signin" href="https://untappd.com/oauth/authenticate/?client_id=84AC1B978F124D4C503D8B8E58C775ED72F0C159&response_type=token&redirect_url=http://ericrichardaustin.com/passporter/">SIGN IN</a></br>
+      <a class="button" id="analyze" onclick="xhr()">Analyze</a>
+    </div>
+
+    <!--- Countries -->
+    <div class="shelf" id="countryContainer">
+    </div>
+
+    <!--- States -->
+    <div class="shelf" id="stateContainer">
+    </div>
+
+    <!-- Badges -->
+    <div class="shelf" id="badgeContainer">
+    </div>
+
+    <div>
+      That was fun! If you want to learn even more about your Untappd data, consider becoming an <a href="https://untappd.com/supporter" target="_blank">Untappd Supporter</a>. Cheers!
+    </div>
+
+    <!-- Footer -->
+    <p class="footer">Passporter is not affliated or endorsed by Untappd. Passporter was built to help users explore where the beer they drink comes from and to encourage users to try beer from different states or countries than they usually do.</p>
+    <p class="footer">Brewed by <a href="https://untappd.com/user/ericrichardaustin" target="_blank">Eric Richard Austin</a>.</p>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <script src="js/countries.js"></script>
+  <script src="js/states.js"></script>
+  <script src="js/badges.js"></script>
+  <script src="js/passporter.js"></script>
+</body>
+</html>
